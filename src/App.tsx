@@ -1,11 +1,15 @@
+import { Heading } from './Components/Heading';
+
 import './styles/theme.css';
 import './styles/global.css';
+
 export function App() {
   console.log('Oi');
 
   return (
     <>
-      <h1> Olá mundo!</h1>
+      <Heading attr={123} attr2='String'>Olá mundo! 1</Heading>
+    
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde iste, quo
         maxime veniam assumenda deleniti deserunt error magni, eaque accusamus
